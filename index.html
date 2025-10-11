@@ -351,7 +351,7 @@
             <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
               </svg>
-              Painel de acompanhamento semanal das reuniões de consolidação das células do discipulado. (Atualizado em 29/09/2025 as 16:10)
+              Painel de acompanhamento semanal das reuniões de consolidação das células do discipulado. (Atualizado em 11/10/2025 as 17:06)
         </p>
 
         <div class="cards-grid" id="cards-grid">
@@ -373,7 +373,7 @@
                         responsible: "Lucas Cruz",
                         students: [],
                         chaptersCompleted: 0,
-                        observation: "sem consolidados ativos"
+                        observation: "sem consolidandos ativos"
                     },
                     {
                         name: "🕊️ Emanuel",
@@ -385,9 +385,9 @@
                     {
                         name: "🌟 Eliaquim",
                         responsible: "Helder",
-                        students: ['Wesley Canabarra de Souza', 'Layla Noemi Martins'],
+                        students: [], 
                         chaptersCompleted: 0,
-                        observation: ""
+                        observation: "sem consolidandos ativos"
                     },
                     {
                         name: "🔄 Change",
@@ -400,7 +400,7 @@
                         name: "⭐ Elionai",
                         responsible: "Guilherme Becker",
                         students: ['Juan Parreira', 'Isadora Perazza'],
-                        chaptersCompleted: 3,
+                        chaptersCompleted: 5,
                         observation: ""
                     },
                     {
@@ -428,7 +428,7 @@
                         name: "👑 Herdeiros",
                         responsible: "Mozart",
                         students: ['Emanuelle Lidian'],
-                        chaptersCompleted: 3,
+                        chaptersCompleted: 4,
                         observation: ""
                     }
                 ]
@@ -521,7 +521,7 @@
                             </div>
                             ${generateObservationHtml(cell.observation)}
                         </div>` :
-                        `<div class="empty-state">${cell.observation || 'Sem consolidados ativos'}</div>`;
+                        `<div class="empty-state">${cell.observation || 'Sem consolidandos ativos'}</div>`;
 
                     const cardElement = document.createElement('div');
                     cardElement.className = cardClass;
